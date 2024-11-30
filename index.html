@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghicește Numărul</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+    <h1>Ghicește Numărul</h1>
+    <button id="playMusic">Play</button>
+    <button id="pauseMusic">Pause</button>
+    <button id="stopMusic">Stop</button>
+    <div id="joc">
+        <p id="timer">Au mai ramas 36 de secunde</p>
+        <h2>Instrucțiuni pentru joc</h2>
+        <p>Încearcă să ghicești numărul corect între 1 și 100!</p>
+        <input type="number" id="guessnumber" placeholder="Introdu numărul">
+        <button id="ghicitor">Ghicește</button>
+        <p id="mesaj"></p>
+        <button id="reset">Mai încearcă o dată!</button>
+    </div>
+    <audio id="background" src="back.mp3"></audio>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
